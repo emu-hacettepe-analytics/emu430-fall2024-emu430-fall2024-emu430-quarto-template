@@ -27,4 +27,4 @@ R, Quarto, Git, Python
 
 # Hobbies
 decoration,photography,chess
-[Download My CV](:///Users/tutkualtay/Downloads/Tutku%20ALTAY%20CV!%20(1)%20(2)%20(1).pdf)
+[Download My CV](https://github.com/emu-hacettepe-analytics/emu430-fall2024-taltaylab/blob/main/Tutku%20ALTAY%20CV!%20(1)%20(2).pdf)
