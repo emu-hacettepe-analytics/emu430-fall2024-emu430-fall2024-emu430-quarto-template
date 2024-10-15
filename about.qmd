@@ -3,28 +3,72 @@ title: "About Me"
 sidebar: false 
 ---
 
+# About Me
+
+-   I am a senior Industrial Engineering student. I have successfully completed my internships and delivered individual work aimed at improving company efficiency. To be versatile, I had the opportunity to observe and work with various departments and teams within companies. I am known for my skills in project management, budget analysis, supply chain management, inventory management, and data analytics.
+
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2020 - ongoing.
 
 # Work Experience
 
-## Employements
+## ‣ TNC Group-SCA Social \| Project Management Intern \| Istanbul, Turkey \| 09.2024 – 10.2024
 
-1.  Firm xxx, position xx, year xxx
+-   It is a program in which we are assigned to a project to see our abilities after receiving training from industry managers.
 
-2.  Firm yyy, position yyy, year yyy
+## ‣ Meteksan Defence \| Project Management Intern \| Ankara, Turkey \| 07.2024 – 08.2024
 
-## Internships
+-   I took on the tasks of creating project schedules and monitoring project progress using project management software. I collected, analysed, and reported supply chain data. I participated in the processes of identifying, analysing, and managing project risks. I assisted in analysing project costs and preparing budgets. With the projects I carried out, I reduced the analysis time of engineers by 40%.
 
-1.  Firm aaa, position xx, year xxx
+## ‣ Aselsannet \| Production Planning Intern \| Ankara, Turkey \| 08.2024 – 09.2024
 
-2.  Firm bbb, position yyy, year yyy
+-   I identified bottlenecks in the production process. I participated in material requirements planning (MRP) and production scheduling activities. I supported stock optimization and inventory management processes. I participated in lean manufacturing and Kaizen methodology implementations. I managed the creation and tracking of purchase orders.
+
+## ‣ Newpark Hotel \| Sales and Marketing Stuff \| Ankara, Turkey \| 01.2021 – 09.2021
+
+-   I handled the sales processes for guest groups targeted by advertisements. I was responsible for the optimization and reporting of advertisements.
+
+## ‣ Denizbank \| Finance Intern \| Istanbul, Turkey \| 11.2020 – 12.2020
+
+-   I completed an internship in a finance position where I worked on investment and risk analysis. I also gained insight into the overall operations of the bank through general observations and participation in various activities.
 
 # Projects
 
+-   Consolidation Study for Material Requirements Analysis, **Meteksan Defence**
+
+-   Excel Automation for Budget Analysis in Project Management, **Meteksan Defence**
+
+-   Machine Learning Model (Python) for Risk Analysis in Project Management, **Hacettepe University (2024)**
+
+-   Automations for Inventory Management, **Aselsannet**
+
+-   Excel Automations for Line Planning, **Aselsannet**
+
+# Certifications
+
+-   Business Continuity, **PMI (2024)**
+
+-   Basics of Disciplined Agile™, **PMI (2024)**
+
+-   Generative AI for Project Managers, **PMI (2024)**
+
+-   Forward Program, **McKinsey (2024)**
+
+# Social & Political Activities
+
+-   Michigan, USA \| Work and Travel \| Jun.-Oct. 2022
+
+-   MUN Conference \| 2016-2017
+
+-   ACM Society – R&D
+
 # Competencies
 
-R, Quarto, Git, Python
+-   Python, Excel Solver, Excel VBA, MATLAB, Minitab, SQL, R, Rockwell Arena, AutoCAD, Professional MS Office (Project, Word, PowerPoint)
 
 # Hobbies
+
+-   I started swimming at the age of 4, was selected for the Turkish National Team at the age of 16, and ended my professional career at the age of 17.
+
+[Download my CV](CV.Efe%20Kayra%20Torun.pdf)

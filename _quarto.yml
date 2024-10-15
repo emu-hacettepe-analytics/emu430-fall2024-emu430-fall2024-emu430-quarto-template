@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "[Student/Group Full Name]'s Analytics Lab"
+  title: "[Efe Kayra Torun]'s Analytics Lab"
   navbar:
     search: true
     left:
@@ -22,11 +22,11 @@ website:
             
     tools:
       - icon: github
-        href: https://twitter.com
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/ekayratr
+      - icon: instagram
+        href: https://www.instagram.com/efe.kayraa/
       - icon: linkedin
-        href: https://linkedin.com
+        href: https://www.linkedin.com/in/efekayratorun1/
 
   sidebar:
     - title: "Assignments"
