@@ -2,6 +2,8 @@
 title: "About Me"
 sidebar: false 
 ---
+[Download](file:///C:/Users/Acer/Downloads/Professional%20Modern%20CV%20Resume%20(2).pdf)
+
 
 # Education
 
@@ -27,3 +29,4 @@ R, Quarto, Git, Python
 
 # Hobbies
 Swimming, Watching Documentaries
+
