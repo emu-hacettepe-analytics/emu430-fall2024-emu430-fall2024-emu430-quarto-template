@@ -22,12 +22,11 @@ website:
             
     tools:
       - icon: github
-        href: https://twitter.com
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/madinasafizade
       - icon: linkedin
-        href: https://linkedin.com
-
+        href: https://www.linkedin.com/in/madina-safizade-28414b225/
+        icon : instagram
+        href : medinasafizadeh
   sidebar:
     - title: "Assignments"
       style: "docked"
