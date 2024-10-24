@@ -24,4 +24,34 @@ c) Website Design
 d) Website traffic monitoring
 Answer is A.
 ## (b)
+library(dslabs)
+
+data("polls_us_election_2016")
+
+head(polls_us_election_2016, 10)
+
+total_na <- sum(is.na(polls_us_election_2016))
+print(paste("Total number of NA values:", total_na))
+
+birth_year <- 2004
+first_name <- "Madina"
+
+modified_poll_data <- polls_us_election_2016
+
+for (i in seq_along(modified_poll_data)) {
+  if (is.numeric(modified_poll_data[[i]])) {
+    modified_poll_data[[i]][is.na(modified_poll_data[[i]])] <- birth_year
+  } else if (is.character(modified_poll_data[[i]])) {
+    modified_poll_data[[i]][is.na(modified_poll_data[[i]])] <- first_name
+  } else if (is.factor(modified_poll_data[[i]])) {
+    modified_poll_data[[i]] <- as.character(modified_poll_data[[i]])
+    modified_poll_data[[i]][is.na(modified_poll_data[[i]])] <- first_name
+    modified_poll_data[[i]] <- as.factor(modified_poll_data[[i]])
+  }
+}
+
+head(modified_poll_data, 10)
+
+total_na_modified <- sum(is.na(modified_poll_data))
+print(paste("Total number of NA values in modified data:", total_na_modified))
 
