@@ -9,10 +9,3 @@ This is my personal webpage.
 
 Please stay tuned to follow my works on data analytics, blog posts, and more.
 
-### Resume
-
-You can view or download my resume here: [Download my resume (PDF)](%22C:\Users\ipek\Downloads\firuzeipek_resume.pdf%22)
-
-```{r}
-
-```

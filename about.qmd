@@ -5,26 +5,37 @@ sidebar: false
 
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+- B.S., Industrial Engineering, Hacettepe University, Turkey, 2022 - ongoing.
 
 # Work Experience
 
-## Employements
+## Employments
 
-1.  Firm xxx, position xx, year xxx
-
-2.  Firm yyy, position yyy, year yyy
+- None
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
-
-2.  Firm bbb, position yyy, year yyy
+1. **Firm**: Ekinciler Demir ve Çelik Anonim Şirketi  
+   **Position**: Intern  
+   **Year**: Summer 2024
 
 # Projects
 
+- [Project 1 Title]: Brief description of your project.
+- [Project 2 Title]: Brief description of your project.
+
 # Competencies
 
-R, Quarto, Git, Python
+- R
+- Quarto
+- Git
+- Python
 
 # Hobbies
+
+Violin, digital illustration (Adobe Sketchbook), fitness, researching, running, painting, Photoshop.
+
+## Resume
+
+You can view or download my resume here: [Firuze İpek Yıldırım Resume (PDF)](assets/my_resume.pdf)
+
