@@ -13,20 +13,19 @@ sidebar: false
 
 1.  Firm American Culture Language Schools, position English Speaking Teacher, year 2022
 
-
 ## Internships
 
 1.  Firm VOLTAJ MMC, position Production Intern, year 2023
 
 2.  Firm GEOTEK MEDIKAL, position Production Intern, year 2024
 
-
 # Competencies
 
 R, Quarto, Git, Python
 
 # Hobbies
-1. Swimming
-2. Watching Documentaries
 
-[download] (file:///C:/Users/Acer/Downloads/Professional%20Modern%20CV%20Resume%20(2).pdf)
+1.  Swimming
+2.  Watching Documentaries
+
+\[download\] (file:///C:/Users/Acer/Downloads/Professional%20Modern%20CV%20Resume%20(2).pdf)
