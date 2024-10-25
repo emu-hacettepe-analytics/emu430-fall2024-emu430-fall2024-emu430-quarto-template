@@ -25,9 +25,14 @@ website:
         href: https://github.com/madinasafizade
       - icon: linkedin
         href: https://www.linkedin.com/in/madina-safizade-28414b225/
+<<<<<<< HEAD
       - icon: instagram
         href: https://www.instagram.com/medinasafizadeh/
 
+=======
+        icon : instagram
+        href : medinasafizadeh
+>>>>>>> a0827a1a7ce2362f44299f2ba544772e9b37b4e9
   sidebar:
     - title: "Assignments"
       style: "docked"
