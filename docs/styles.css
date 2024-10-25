@@ -1,1 +1,65 @@
-/* css styles */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+p, a, li {
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar {
+    background-color: #e6e6fa; 
+}
+ 
+.navbar a {
+    color: #808080;
+}
+
+
+.navbar a:hover {
+    color: #d19fe6; 
+}
+
+body * {
+    color: white; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+}
+
+
+
+.sidebar a:hover {
+    color: #d19fe6; 
+}
+
+body {
+    background-color: #ffcccb;
+    color: #ffffff;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+a {
+    color: #ff69b4;
+}
+
+a:hover {
+    color: #c71585;
+}
+.sidebar {
+    background-color: #808080;
+}.
+page-footer {
+    color: #000000; 
+}
+.sidebar {
+    background-color: #808080;
+}
+
+

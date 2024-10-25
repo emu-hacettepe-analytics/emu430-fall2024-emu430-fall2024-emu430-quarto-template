@@ -2,29 +2,43 @@
 title: "About Me"
 sidebar: false 
 ---
+[Download](file:///C:/Users/Acer/Downloads/Professional%20Modern%20CV%20Resume%20(2).pdf)
+
 
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2021 - ongoing.
 
 # Work Experience
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx
-
-2.  Firm yyy, position yyy, year yyy
+1.  Firm American Culture Language Schools, position English Speaking Teacher, year 2022
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
+1.  Firm VOLTAJ MMC, position Production Intern, year 2023
 
-2.  Firm bbb, position yyy, year yyy
+<<<<<<< HEAD
+2.  Firm GEOTEK MEDIKAL, position Production Intern, year 2024
+=======
+2.  Firm GEOTEK MEDIKAL, position Production intern, year 2024
 
 # Projects
+>>>>>>> a0827a1a7ce2362f44299f2ba544772e9b37b4e9
 
 # Competencies
 
 R, Quarto, Git, Python
 
 # Hobbies
+<<<<<<< HEAD
+
+1.  Swimming
+2.  Watching Documentaries
+
+\[download\] (file:///C:/Users/Acer/Downloads/Professional%20Modern%20CV%20Resume%20(2).pdf)
+=======
+Swimming, Watching Documentaries
+
+>>>>>>> a0827a1a7ce2362f44299f2ba544772e9b37b4e9

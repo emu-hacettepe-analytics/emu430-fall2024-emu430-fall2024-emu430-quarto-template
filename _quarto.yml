@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "[Student/Group Full Name]'s Analytics Lab"
+  title: "Medina Safizadeh's Analytics Lab"
   navbar:
     search: true
     left:
@@ -22,12 +22,17 @@ website:
             
     tools:
       - icon: github
-        href: https://twitter.com
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/madinasafizade
       - icon: linkedin
-        href: https://linkedin.com
+        href: https://www.linkedin.com/in/madina-safizade-28414b225/
+<<<<<<< HEAD
+      - icon: instagram
+        href: https://www.instagram.com/medinasafizadeh/
 
+=======
+        icon : instagram
+        href : medinasafizadeh
+>>>>>>> a0827a1a7ce2362f44299f2ba544772e9b37b4e9
   sidebar:
     - title: "Assignments"
       style: "docked"
@@ -41,6 +46,7 @@ website:
   page-footer:
     center: "Hacettepe IE - EMU430 - 2024 Fall" 
     border: true
+
 format:
   html:
     toc: true
@@ -50,6 +56,4 @@ format:
       dark: superhero
     css: styles.css
 
-
 editor: visual
-
