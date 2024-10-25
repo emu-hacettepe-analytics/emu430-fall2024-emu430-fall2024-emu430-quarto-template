@@ -1,6 +1,6 @@
 ---
-title: "Welcome to My Analytics Lab!"
-sidebar: false
+title: "Welcome to My Analytics Lab"
+sidebar: false 
 ---
 
 Hello! My name is Madina Safizade.
