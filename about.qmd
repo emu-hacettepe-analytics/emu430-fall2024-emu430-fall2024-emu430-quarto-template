@@ -8,6 +8,8 @@ sidebar: false
 - B.S., Industrial Engineering, Hacettepe University, Turkey, 2022 - ongoing.
 
 # Work Experience
+- Hacettepe Industry And Design Society Media And Design Team Coordinator.
+2023-2024
 
 ## Employments
 
@@ -21,8 +23,8 @@ sidebar: false
 
 # Projects
 
-- [Project 1 Title]: Brief description of your project.
-- [Project 2 Title]: Brief description of your project.
+- **My Quarto Website**: A project given in EMU430 course. We are assigned to design our own websites like personal blogs and design it as we like using quarto.
+
 
 # Competencies
 
@@ -30,12 +32,16 @@ sidebar: false
 - Quarto
 - Git
 - Python
+- LaTeX
+- Canva
+- Photoshop CS6
 
 # Hobbies
 
-Violin, digital illustration (Adobe Sketchbook), fitness, researching, running, painting, Photoshop.
+I like playing violin, spending time drawing or animating things at Adobe Sketchbook, I like fitness, researching, running, painting, Photoshop and so many other things I'd say im an multifaceted person.
 
 ## Resume
 
-You can view or download my resume here: [Firuze İpek Yıldırım Resume (PDF)](assets/my_resume.pdf)
+You can view or download my resume here: [Firuze İpek Yıldırım Resume (PDF)](assets/firuzeipek_resume.pdf)
+Or you can access to my resume [here.](https://firuze-ipek-yildirim-resume.my.canva.site/)
 
