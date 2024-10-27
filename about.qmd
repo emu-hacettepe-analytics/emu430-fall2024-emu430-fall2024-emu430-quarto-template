@@ -1,7 +1,8 @@
 ---
-title: "About Me"
+title: "About Firuze"
 sidebar: false 
 ---
+![hehe](assets/ᑉ³.jpeg){width=200px}
 
 # Education
 
@@ -35,6 +36,9 @@ sidebar: false
 - LaTeX
 - Canva
 - Photoshop CS6
+- AutoCAD
+- Spreadsheets
+- Technical Documentation
 
 # Hobbies
 

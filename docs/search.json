@@ -23,9 +23,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About Me",
+    "title": "About Firuze",
     "section": "",
-    "text": "B.S., Industrial Engineering, Hacettepe University, Turkey, 2022 - ongoing."
+    "text": "hehe"
   },
   {
     "objectID": "about.html#employements",
@@ -37,7 +37,7 @@
   {
     "objectID": "about.html#internships",
     "href": "about.html#internships",
-    "title": "About Me",
+    "title": "About Firuze",
     "section": "Internships",
     "text": "Internships\n\nFirm: Ekinciler Demir ve Çelik Anonim Şirketi\nPosition: Intern\nYear: Summer 2024"
   },
@@ -46,34 +46,60 @@
     "href": "assignments/assignment-1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts."
+    "text": "My first assignment has two parts.\n\n\nAssociate Professor Mustafa Gökçe Baydoğan, who completed his Bachelor’s and Master’s studies at Middle East Technical University before moving to the U.S. for doctoral and postdoctoral research, is currently an educator at Boğaziçi University and the founder of Algopoly. In this video, he shares his perspective on data science, especially within the field of industrial engineering.\nHe discusses approaches to decision-making questions such as “How much should I produce tomorrow?” and “How should I manage my inventory?” His insights align closely with topics from production planning (like forecasting) and operations research (such as optimization), highlighting the critical role of industrial engineering in production planning.\nOne interesting problem covered was the prediction of wood curvature, where we examine specific wood characteristics, cutting techniques, and regional influences on factors like bending, warping, and curvature. This approach involves feeding these elements into a prediction algorithm to understand why wood might warp. The distinction between traditional and deep learning methods became clear: in traditional learning, feature selection and learning are separate stages, while deep learning integrates these processes. Significant aspects of deep learning include its ability to handle unstructured data, adaptability, interpretability, robustness, and its demand for data.\nThe importance of prediction accuracy in decision-making was another focus. Retail energy companies, such as Enerji SA, must make accurate production and consumption forecasts, with variables like regional consumption, production from unlicensed plants, hourly national consumption, weather, and special events playing a role. A combined method of specialized feature extraction and machine learning can help make these predictions, crucial for market stability and 24-hour energy procurement planning.\nIn online retail, optimization algorithms influence what products we see, as digital footprints guide product ranking and customer predictions based on purchasing behavior. For instance, Trendyol’s ranking algorithms factor in clicks, favorites, items added to carts, sales, and inventory balances, supported by machine learning techniques like similarity learning and preference learning. Tools like Google Trends also serve as valuable forecasting aids.\nBaydoğan also discussed the emerging influence of machine learning in industrial engineering through methods like linear and logistic regressions, tree-based learners, Bayesian networks, and neural networks, pointing out that optimization is steadily becoming integral in the field.\nLink to the video is here.\nAn open ended question from me: Do you think AI will be able to take humans places at all, why or why not?.\nAnd the multiple choice question: In the context of industrial engineering, which of the following is a primary benefit of using machine learning for production planning?\n\nReducing the need for human labor entirely.\n\nNot quite. Machine learning doesn’t entirely remove the need for human oversight.\n\nEnhancing decision-making through accurate demand forecasting and optimization.\n\nCorrect! Machine learning helps improve decision-making.\n\nReplacing traditional engineering skills with coding skills.\n\nNot quite. Machine learning complements engineering skills.\n\nIncreasing production without any cost implications.\n\nNo. Machine learning can optimize costs but doesn’t make production free.\n\n\n\nThe Dataset Of Polls 2016\n\n\n\n\n\nstate\nstartdate\nenddate\npollster\ngrade\nsamplesize\npopulation\nClinton Raw\nTrump Raw\nJohnson Raw\nMcmullin Raw\nClinton Adj\nTrump Adj\nJohnson Adj\nMcmullin Adj\n\n\n\n\nU.S.\n2016-11-03\n2016-11-06\nABC News/Washington Post\nA+\n2220\nlv\n47.00\n43.00\n4.00\nNA\n45.20163\n41.72430\n4.626221\nNA\n\n\nU.S.\n2016-11-01\n2016-11-07\nGoogle Consumer Surveys\nB\n26574\nlv\n38.03\n35.69\n5.46\nNA\n43.34557\n41.21439\n5.175792\nNA\n\n\nU.S.\n2016-11-02\n2016-11-06\nIpsos\nA-\n2195\nlv\n42.00\n39.00\n6.00\nNA\n42.02638\n38.81620\n6.844734\nNA\n\n\nU.S.\n2016-11-04\n2016-11-07\nYouGov\nB\n3677\nlv\n45.00\n41.00\n5.00\nNA\n45.65676\n40.92004\n6.069454\nNA\n\n\nU.S.\n2016-11-03\n2016-11-06\nGravis Marketing\nB-\n16639\nrv\n47.00\n43.00\n3.00\nNA\n46.84089\n42.33184\n3.726098\nNA\n\n\nU.S.\n2016-11-03\n2016-11-06\nFox News/Anderson Robbins Research/Shaw & Company Research\nA\n1295\nlv\n48.00\n44.00\n3.00\nNA\n49.02208\n43.95631\n3.057876\nNA\n\n\nU.S.\n2016-11-02\n2016-11-06\nCBS News/New York Times\nA-\n1426\nlv\n45.00\n41.00\n5.00\nNA\n45.11649\n40.92722\n4.341786\nNA\n\n\nU.S.\n2016-11-03\n2016-11-05\nNBC News/Wall Street Journal\nA-\n1282\nlv\n44.00\n40.00\n6.00\nNA\n43.58576\n40.77325\n5.365788\nNA\n\n\nNew Mexico\n2016-11-06\n2016-11-06\nZia Poll\nNA\n8439\nlv\n46.00\n44.00\n6.00\nNA\n44.82594\n41.59978\n7.870127\nNA\n\n\nU.S.\n2016-11-04\n2016-11-07\nIBD/TIPP\nA-\n1107\nlv\n41.20\n42.70\n7.10\nNA\n42.92745\n42.23545\n6.316175\nNA\n\n\n\n\n\n\n\nTotal NA Value\n\n\n\n\n\nTotal NA Values\n\n\n\n\n11604\n\n\n\n\n\n\n\nModified Dataset\n\n\n\n\n\nstate\nstartdate\nenddate\npollster\ngrade\nsamplesize\npopulation\nClinton Raw\nTrump Raw\nJohnson Raw\nMcmullin Raw\nClinton Adj\nTrump Adj\nJohnson Adj\nMcmullin Adj\n\n\n\n\nU.S.\n2016-11-03\n2016-11-06\nABC News/Washington Post\nA+\n2220\nlv\n47.00\n43.00\n4.00\n2004\n45.20163\n41.72430\n4.626221\n2004\n\n\nU.S.\n2016-11-01\n2016-11-07\nGoogle Consumer Surveys\nB\n26574\nlv\n38.03\n35.69\n5.46\n2004\n43.34557\n41.21439\n5.175792\n2004\n\n\nU.S.\n2016-11-02\n2016-11-06\nIpsos\nA-\n2195\nlv\n42.00\n39.00\n6.00\n2004\n42.02638\n38.81620\n6.844734\n2004\n\n\nU.S.\n2016-11-04\n2016-11-07\nYouGov\nB\n3677\nlv\n45.00\n41.00\n5.00\n2004\n45.65676\n40.92004\n6.069454\n2004\n\n\nU.S.\n2016-11-03\n2016-11-06\nGravis Marketing\nB-\n16639\nrv\n47.00\n43.00\n3.00\n2004\n46.84089\n42.33184\n3.726098\n2004\n\n\nU.S.\n2016-11-03\n2016-11-06\nFox News/Anderson Robbins Research/Shaw & Company Research\nA\n1295\nlv\n48.00\n44.00\n3.00\n2004\n49.02208\n43.95631\n3.057876\n2004\n\n\nU.S.\n2016-11-02\n2016-11-06\nCBS News/New York Times\nA-\n1426\nlv\n45.00\n41.00\n5.00\n2004\n45.11649\n40.92722\n4.341786\n2004\n\n\nU.S.\n2016-11-03\n2016-11-05\nNBC News/Wall Street Journal\nA-\n1282\nlv\n44.00\n40.00\n6.00\n2004\n43.58576\n40.77325\n5.365788\n2004\n\n\nNew Mexico\n2016-11-06\n2016-11-06\nZia Poll\nNA\n8439\nlv\n46.00\n44.00\n6.00\n2004\n44.82594\n41.59978\n7.870127\n2004\n\n\nU.S.\n2016-11-04\n2016-11-07\nIBD/TIPP\nA-\n1107\nlv\n41.20\n42.70\n7.10\n2004\n42.92745\n42.23545\n6.316175\n2004\n\n\n\n\n\n\n\nRemaining NA value\n\n\n\n\n\nTotal NA Values Remaining\n\n\n\n\n429",
+    "crumbs": [
+      "Assignment 1"
+    ]
   },
   {
     "objectID": "assignments.html",
     "href": "assignments.html",
     "title": "My Assignments",
     "section": "",
-    "text": "On this page, I showcase the assignment I conducted for the [term and year, e.g. Fall 2023] EMU 430 Data Analytics course.\nPlease use left menu to navigate through my assignments.\nThe most recent update to this page was made on October 25, 2023\n\n\n\n Back to top"
+    "text": "On this page, I showcase the assignment I conducted for the [term and year, e.g. Fall 2024] EMU430 Data Analytics course.\nPlease use left menu to navigate through my assignments.\nThe most recent update to this page was made on October 10, 2024\n\n\n\n Back to top",
+    "crumbs": [
+      "My Assignments"
+    ]
   },
   {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "My Blog",
     "section": "",
-    "text": "This page is under construction.\n\n\n\n Back to top"
+    "text": "sad meow\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "about.html#resume",
     "href": "about.html#resume",
-    "title": "About Me",
+    "title": "About Firuze",
     "section": "Resume",
     "text": "Resume\nYou can view or download my resume here: Firuze İpek Yıldırım Resume (PDF) Or you can access to my resume here."
   },
   {
     "objectID": "about.html#employments",
     "href": "about.html#employments",
-    "title": "About Me",
+    "title": "About Firuze",
     "section": "Employments",
     "text": "Employments\n\nNone"
+  },
+  {
+    "objectID": "assignments/assignment-1.html#a-summary-and-open-ended-questions-about-veri-bilimi-ve-endüstri-mühendisliği-üzerine-sohbetler---mustafa-baydoğan-erdi-daşdemir",
+    "href": "assignments/assignment-1.html#a-summary-and-open-ended-questions-about-veri-bilimi-ve-endüstri-mühendisliği-üzerine-sohbetler---mustafa-baydoğan-erdi-daşdemir",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "Associate Professor Mustafa Gökçe Baydoğan, who completed his Bachelor’s and Master’s studies at Middle East Technical University before moving to the U.S. for doctoral and postdoctoral research, is currently an educator at Boğaziçi University and the founder of Algopoly. In this video, he shares his perspective on data science, especially within the field of industrial engineering.\nHe discusses approaches to decision-making questions such as “How much should I produce tomorrow?” and “How should I manage my inventory?” His insights align closely with topics from production planning (like forecasting) and operations research (such as optimization), highlighting the critical role of industrial engineering in production planning.\nOne interesting problem covered was the prediction of wood curvature, where we examine specific wood characteristics, cutting techniques, and regional influences on factors like bending, warping, and curvature. This approach involves feeding these elements into a prediction algorithm to understand why wood might warp. The distinction between traditional and deep learning methods became clear: in traditional learning, feature selection and learning are separate stages, while deep learning integrates these processes. Significant aspects of deep learning include its ability to handle unstructured data, adaptability, interpretability, robustness, and its demand for data.\nThe importance of prediction accuracy in decision-making was another focus. Retail energy companies, such as Enerji SA, must make accurate production and consumption forecasts, with variables like regional consumption, production from unlicensed plants, hourly national consumption, weather, and special events playing a role. A combined method of specialized feature extraction and machine learning can help make these predictions, crucial for market stability and 24-hour energy procurement planning.\nIn online retail, optimization algorithms influence what products we see, as digital footprints guide product ranking and customer predictions based on purchasing behavior. For instance, Trendyol’s ranking algorithms factor in clicks, favorites, items added to carts, sales, and inventory balances, supported by machine learning techniques like similarity learning and preference learning. Tools like Google Trends also serve as valuable forecasting aids.\nBaydoğan also discussed the emerging influence of machine learning in industrial engineering through methods like linear and logistic regressions, tree-based learners, Bayesian networks, and neural networks, pointing out that optimization is steadily becoming integral in the field.\nLink to the video is here.\nAn open ended question from me: Do you think AI will be able to take humans places at all, why or why not?.\nAnd the multiple choice question: In the context of industrial engineering, which of the following is a primary benefit of using machine learning for production planning?\n\nReducing the need for human labor entirely.\n\nNot quite. Machine learning doesn’t entirely remove the need for human oversight.\n\nEnhancing decision-making through accurate demand forecasting and optimization.\n\nCorrect! Machine learning helps improve decision-making.\n\nReplacing traditional engineering skills with coding skills.\n\nNot quite. Machine learning complements engineering skills.\n\nIncreasing production without any cost implications.\n\nNo. Machine learning can optimize costs but doesn’t make production free.",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#b",
+    "href": "assignments/assignment-1.html#b",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "The Dataset Of Polls 2016\n\n\n\n\n\nstate\nstartdate\nenddate\npollster\ngrade\nsamplesize\npopulation\nClinton Raw\nTrump Raw\nJohnson Raw\nMcmullin Raw\nClinton Adj\nTrump Adj\nJohnson Adj\nMcmullin Adj\n\n\n\n\nU.S.\n2016-11-03\n2016-11-06\nABC News/Washington Post\nA+\n2220\nlv\n47.00\n43.00\n4.00\nNA\n45.20163\n41.72430\n4.626221\nNA\n\n\nU.S.\n2016-11-01\n2016-11-07\nGoogle Consumer Surveys\nB\n26574\nlv\n38.03\n35.69\n5.46\nNA\n43.34557\n41.21439\n5.175792\nNA\n\n\nU.S.\n2016-11-02\n2016-11-06\nIpsos\nA-\n2195\nlv\n42.00\n39.00\n6.00\nNA\n42.02638\n38.81620\n6.844734\nNA\n\n\nU.S.\n2016-11-04\n2016-11-07\nYouGov\nB\n3677\nlv\n45.00\n41.00\n5.00\nNA\n45.65676\n40.92004\n6.069454\nNA\n\n\nU.S.\n2016-11-03\n2016-11-06\nGravis Marketing\nB-\n16639\nrv\n47.00\n43.00\n3.00\nNA\n46.84089\n42.33184\n3.726098\nNA\n\n\nU.S.\n2016-11-03\n2016-11-06\nFox News/Anderson Robbins Research/Shaw & Company Research\nA\n1295\nlv\n48.00\n44.00\n3.00\nNA\n49.02208\n43.95631\n3.057876\nNA\n\n\nU.S.\n2016-11-02\n2016-11-06\nCBS News/New York Times\nA-\n1426\nlv\n45.00\n41.00\n5.00\nNA\n45.11649\n40.92722\n4.341786\nNA\n\n\nU.S.\n2016-11-03\n2016-11-05\nNBC News/Wall Street Journal\nA-\n1282\nlv\n44.00\n40.00\n6.00\nNA\n43.58576\n40.77325\n5.365788\nNA\n\n\nNew Mexico\n2016-11-06\n2016-11-06\nZia Poll\nNA\n8439\nlv\n46.00\n44.00\n6.00\nNA\n44.82594\n41.59978\n7.870127\nNA\n\n\nU.S.\n2016-11-04\n2016-11-07\nIBD/TIPP\nA-\n1107\nlv\n41.20\n42.70\n7.10\nNA\n42.92745\n42.23545\n6.316175\nNA\n\n\n\n\n\n\n\nTotal NA Value\n\n\n\n\n\nTotal NA Values\n\n\n\n\n11604\n\n\n\n\n\n\n\nModified Dataset\n\n\n\n\n\nstate\nstartdate\nenddate\npollster\ngrade\nsamplesize\npopulation\nClinton Raw\nTrump Raw\nJohnson Raw\nMcmullin Raw\nClinton Adj\nTrump Adj\nJohnson Adj\nMcmullin Adj\n\n\n\n\nU.S.\n2016-11-03\n2016-11-06\nABC News/Washington Post\nA+\n2220\nlv\n47.00\n43.00\n4.00\n2004\n45.20163\n41.72430\n4.626221\n2004\n\n\nU.S.\n2016-11-01\n2016-11-07\nGoogle Consumer Surveys\nB\n26574\nlv\n38.03\n35.69\n5.46\n2004\n43.34557\n41.21439\n5.175792\n2004\n\n\nU.S.\n2016-11-02\n2016-11-06\nIpsos\nA-\n2195\nlv\n42.00\n39.00\n6.00\n2004\n42.02638\n38.81620\n6.844734\n2004\n\n\nU.S.\n2016-11-04\n2016-11-07\nYouGov\nB\n3677\nlv\n45.00\n41.00\n5.00\n2004\n45.65676\n40.92004\n6.069454\n2004\n\n\nU.S.\n2016-11-03\n2016-11-06\nGravis Marketing\nB-\n16639\nrv\n47.00\n43.00\n3.00\n2004\n46.84089\n42.33184\n3.726098\n2004\n\n\nU.S.\n2016-11-03\n2016-11-06\nFox News/Anderson Robbins Research/Shaw & Company Research\nA\n1295\nlv\n48.00\n44.00\n3.00\n2004\n49.02208\n43.95631\n3.057876\n2004\n\n\nU.S.\n2016-11-02\n2016-11-06\nCBS News/New York Times\nA-\n1426\nlv\n45.00\n41.00\n5.00\n2004\n45.11649\n40.92722\n4.341786\n2004\n\n\nU.S.\n2016-11-03\n2016-11-05\nNBC News/Wall Street Journal\nA-\n1282\nlv\n44.00\n40.00\n6.00\n2004\n43.58576\n40.77325\n5.365788\n2004\n\n\nNew Mexico\n2016-11-06\n2016-11-06\nZia Poll\nNA\n8439\nlv\n46.00\n44.00\n6.00\n2004\n44.82594\n41.59978\n7.870127\n2004\n\n\nU.S.\n2016-11-04\n2016-11-07\nIBD/TIPP\nA-\n1107\nlv\n41.20\n42.70\n7.10\n2004\n42.92745\n42.23545\n6.316175\n2004\n\n\n\n\n\n\n\nRemaining NA value\n\n\n\n\n\nTotal NA Values Remaining\n\n\n\n\n429",
+    "crumbs": [
+      "Assignment 1"
+    ]
   }
 ]
