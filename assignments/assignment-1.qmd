@@ -43,7 +43,7 @@ D) Increasing production without any cost implications.
 <span style="color: pink;"><i>No. Machine learning can optimize costs but doesn’t make production free.</i></span>
 
 
-#i wrote the code but the tables were not neat enough so i used chat gpt to help me make the tables better
+#i wrote the code but the tables were not neat enough so i used chat gpt to help me make the tables better.
 
 ## (b)
 
