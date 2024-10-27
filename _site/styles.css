@@ -1,1 +1,55 @@
 /* css styles */
+/* Custom CSS Styles */
+
+/* General Body Styles */
+body {
+    background-color: #FFB6C1; /* Powder pink background */
+    color: #4B0082;            /* Dark purple text color */
+    font-family: Arial, sans-serif; /* Change font family */
+    line-height: 1.6;          /* Improve line spacing */
+}
+
+/* Link Styles */
+a {
+    color: #4B0082;            /* Dark purple for links */
+    text-decoration: none;     /* Remove underline */
+}
+
+a:hover {
+    color: #3A0058;            /* Darker purple on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Header Styles */
+h1, h2, h3 {
+    color: #4B0082;            /* Dark purple for headings */
+    margin-top: 0;            /* Remove top margin for headers */
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #FFB6C1; /* Powder pink background for sidebar */
+    border-right: 1px solid #ddd; /* Light border */
+    padding: 15px;             /* Add padding */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4B0082; /* Dark purple footer */
+    color: white;              /* White text in footer */
+    padding: 10px;             /* Padding for footer */
+    text-align: center;        /* Center text */
+}
+
+/* Button Styles */
+.button {
+    background-color: #4B0082; /* Dark purple button background */
+    color: white;               /* Button text color */
+    border: none;               /* Remove border */
+    padding: 10px 20px;        /* Padding for button */
+    border-radius: 5px;        /* Rounded corners */
+}
+
+.button:hover {
+    background-color: #3A0058; /* Darker purple on hover */
+}

@@ -2,14 +2,151 @@
 title: "Assignment 1"
 ---
 
-# Assignment 1
-
-```{r}
-1 + 1
-```
 
 My first assignment has two parts.
 
-## (a)
+## (a) Summary and Open Ended Questions About "Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Mustafa Baydoğan & Erdi Daşdemir"
+
+Associate Professor Mustafa Gökçe Baydoğan, who completed his Bachelor's and Master's studies at Middle East Technical University before moving to the U.S. for doctoral and postdoctoral research, is currently an educator at Boğaziçi University and the founder of Algopoly. In this video, he shares his perspective on data science, especially within the field of industrial engineering.
+
+He discusses approaches to decision-making questions such as “How much should I produce tomorrow?” and “How should I manage my inventory?” His insights align closely with topics from production planning (like forecasting) and operations research (such as optimization), highlighting the critical role of industrial engineering in production planning.
+
+One interesting problem covered was the prediction of wood curvature, where we examine specific wood characteristics, cutting techniques, and regional influences on factors like bending, warping, and curvature. This approach involves feeding these elements into a prediction algorithm to understand why wood might warp. The distinction between traditional and deep learning methods became clear: in traditional learning, feature selection and learning are separate stages, while deep learning integrates these processes. Significant aspects of deep learning include its ability to handle unstructured data, adaptability, interpretability, robustness, and its demand for data.
+
+The importance of prediction accuracy in decision-making was another focus. Retail energy companies, such as Enerji SA, must make accurate production and consumption forecasts, with variables like regional consumption, production from unlicensed plants, hourly national consumption, weather, and special events playing a role. A combined method of specialized feature extraction and machine learning can help make these predictions, crucial for market stability and 24-hour energy procurement planning.
+
+In online retail, optimization algorithms influence what products we see, as digital footprints guide product ranking and customer predictions based on purchasing behavior. For instance, Trendyol’s ranking algorithms factor in clicks, favorites, items added to carts, sales, and inventory balances, supported by machine learning techniques like similarity learning and preference learning. Tools like Google Trends also serve as valuable forecasting aids.
+
+Baydoğan also discussed the emerging influence of machine learning in industrial engineering through methods like linear and logistic regressions, tree-based learners, Bayesian networks, and neural networks, pointing out that optimization is steadily becoming integral in the field.
+
+Link to the video is [here.](https://www.youtube.com/watch?v=1Mvkn71dhaA&ab_channel=ErdiDasdemir)
+
+An open ended question from me: Do you think AI will be able to take humans places at all, why or why not?.
+
+And the multiple choice question:
+In the context of industrial engineering, which of the following is a primary benefit of using machine learning for production planning?
+
+A) Reducing the need for human labor entirely.
+
+<span style="color: pink;"><i>Not quite. Machine learning doesn’t entirely remove the need for human oversight.</i></span>
+
+B) Enhancing decision-making through accurate demand forecasting and optimization.
+
+<span style="color: pink;"><i>Correct! Machine learning helps improve decision-making.</i></span>
+
+C) Replacing traditional engineering skills with coding skills.
+
+<span style="color: pink;"><i>Not quite. Machine learning complements engineering skills.</i></span>
+
+D) Increasing production without any cost implications.
+
+<span style="color: pink;"><i>No. Machine learning can optimize costs but doesn’t make production free.</i></span>
+
+
+#i wrote the code but the tables were not neat enough so i used chat gpt to help me make the tables better.
 
 ## (b)
+
+The Dataset Of Polls 2016
+```{r echo = FALSE, message=FALSE, warning=FALSE}
+# Load necessary libraries
+library(dslabs)  # For accessing the dataset
+library(dplyr)   # For data manipulation
+library(tidyr)   # For handling NA values
+library(fivethirtyeight)
+library(knitr)      # For creating tables
+library(kableExtra) # For enhancing tables
+
+# Load the dataset
+data("polls_us_election_2016")  
+original_data_table <- polls_us_election_2016 %>%
+  select(state, startdate, enddate, pollster, grade, samplesize,
+         population, rawpoll_clinton, rawpoll_trump, rawpoll_johnson, rawpoll_mcmullin,
+         adjpoll_clinton, adjpoll_trump, adjpoll_johnson, adjpoll_mcmullin) %>%
+  rename(
+    `Clinton Raw` = rawpoll_clinton,
+    `Trump Raw` = rawpoll_trump,
+    `Johnson Raw` = rawpoll_johnson,
+    `Mcmullin Raw` = rawpoll_mcmullin,
+    `Clinton Adj` = adjpoll_clinton,
+    `Trump Adj` = adjpoll_trump,
+    `Johnson Adj` = adjpoll_johnson,
+    `Mcmullin Adj` = adjpoll_mcmullin
+  ) %>%
+  head(10) %>%  # Get only the first 10 rows
+  kable("html", escape = FALSE, align = 'l') %>% 
+  kable_styling("striped", full_width = FALSE)
+
+# Print the original dataset table
+original_data_table
+```
+
+
+
+Total NA Value
+```{r echo = FALSE, message=FALSE, warning=FALSE}
+NA_total <- sum(is.na(polls_us_election_2016))
+na_total_table <- data.frame("Total NA Values" = NA_total)
+
+# Rename the column to avoid dots
+colnames(na_total_table) <- c("Total NA Values")
+
+na_total_table <- na_total_table %>%
+  kable("html", escape = FALSE, align = 'l') %>% 
+  kable_styling("striped", full_width = FALSE)
+
+# Print the NA total table
+na_total_table
+```
+
+
+
+Modified Dataset
+```{r echo = FALSE, message=FALSE, warning=FALSE}
+modified_data <- polls_us_election_2016 %>%
+  mutate(across(where(is.numeric), ~ replace_na(., 2004)),  # Replace NA in numeric columns with birth year
+         across(where(is.character), ~ replace_na(., "Firuze")))  # Replace NA in character columns with first name
+
+# Select relevant columns and rename them in the dataset
+final_data <- modified_data %>%
+  select(state, startdate, enddate, pollster, grade, samplesize,
+         population, rawpoll_clinton, rawpoll_trump, rawpoll_johnson, rawpoll_mcmullin,
+         adjpoll_clinton, adjpoll_trump, adjpoll_johnson, adjpoll_mcmullin) %>%
+  rename(
+    `Clinton Raw` = rawpoll_clinton,
+    `Trump Raw` = rawpoll_trump,
+    `Johnson Raw` = rawpoll_johnson,
+    `Mcmullin Raw` = rawpoll_mcmullin,
+    `Clinton Adj` = adjpoll_clinton,
+    `Trump Adj` = adjpoll_trump,
+    `Johnson Adj` = adjpoll_johnson,
+    `Mcmullin Adj` = adjpoll_mcmullin
+  )
+
+# Print the first 10 rows of the modified dataset in a table
+modified_data_table <- head(final_data, 10) %>%
+  kable("html", escape = FALSE, align = 'l') %>% 
+  kable_styling("striped", full_width = FALSE)
+
+# Print the modified dataset table
+modified_data_table
+```
+
+
+
+Remaining NA value
+```{r echo = FALSE, message=FALSE, warning=FALSE}
+NA_total_modified <- sum(is.na(modified_data))
+na_total_modified_table <- data.frame("Total NA Values Remaining" = NA_total_modified)
+
+# Rename the column to avoid dots
+colnames(na_total_modified_table) <- c("Total NA Values Remaining")
+
+na_total_modified_table <- na_total_modified_table %>%
+  kable("html", escape = FALSE, align = 'l') %>% 
+  kable_styling("striped", full_width = FALSE)
+
+# Print the remaining NA total table
+na_total_modified_table
+```
+

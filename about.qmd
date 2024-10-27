@@ -1,30 +1,51 @@
 ---
-title: "About Me"
+title: "About Firuze"
 sidebar: false 
 ---
+![hehe](assets/ᑉ³.jpeg){width=200px}
 
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+- B.S., Industrial Engineering, Hacettepe University, Turkey, 2022 - ongoing.
 
 # Work Experience
+- Hacettepe Industry And Design Society Media And Design Team Coordinator.
+2023-2024
 
-## Employements
+## Employments
 
-1.  Firm xxx, position xx, year xxx
-
-2.  Firm yyy, position yyy, year yyy
+- None
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
-
-2.  Firm bbb, position yyy, year yyy
+1. **Firm**: Ekinciler Demir ve Çelik Anonim Şirketi  
+   **Position**: Intern  
+   **Year**: Summer 2024
 
 # Projects
 
+- **My Quarto Website**: A project given in EMU430 course. We are assigned to design our own websites like personal blogs and design it as we like using quarto.
+
+
 # Competencies
 
-R, Quarto, Git, Python
+- R
+- Quarto
+- Git
+- Python
+- LaTeX
+- Canva
+- Photoshop CS6
+- AutoCAD
+- Spreadsheets
+- Technical Documentation
 
 # Hobbies
+
+I like playing violin, spending time drawing or animating things at Adobe Sketchbook, I like fitness, researching, running, painting, Photoshop and so many other things I'd say im an multifaceted person.
+
+## Resume
+
+You can view or download my resume here: [Firuze İpek Yıldırım Resume (PDF)](assets/firuzeipek_resume.pdf)
+Or you can access to my resume [here.](https://firuze-ipek-yildirim-resume.my.canva.site/)
+
